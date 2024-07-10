@@ -141,8 +141,13 @@ body{
     margin-top: 140px;
     border-radius: 8px;
     background-color: rgba(39, 39, 39, 0.05);
+}
+
+.section-contents{
+    height: 320px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     text-align: center;
+    border: 1px solid red;
 }
