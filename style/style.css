@@ -100,7 +100,6 @@ body{
     font-weight: 400;
 }
 
-
 .featured-images{
     display: flex;
     gap: 20px;
@@ -132,4 +131,18 @@ body{
     border-radius: 300px 300px 0px 0px;
     background-color: rgba(71, 125, 17, 0.15);
     padding-top: 25px;
+}
+
+/* delivery section style starts here */
+.delivery-section{
+    width: 90%;
+    height: 320px;
+    margin: 0 auto;
+    margin-top: 140px;
+    border-radius: 8px;
+    background-color: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
 }
