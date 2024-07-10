@@ -77,11 +77,9 @@ body{
     height: 650px;
     margin: 0 auto;
     margin-top: 140px;
-    border: 1px solid red;
 }
 
 .featured-flower-contents{
-    border: 2px solid blue;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -90,6 +88,18 @@ body{
     margin: 0 auto;
     text-align: center;
 }
+.featured-flower-contents h2{
+    color: rgb(39, 39, 39);
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.featured-flower-contents p{
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+}
+
 
 .featured-images{
     display: flex;
@@ -103,7 +113,6 @@ body{
 .first-image{
     width: 33%;
     height: 500px;
-    border: 2px solid yellow;
     border-radius: 300px 300px 0px 0px;
     background-color: rgba(167, 33, 98, 0.15);
     padding-top: 70px;
@@ -112,7 +121,6 @@ body{
 .second-image{
     width: 33%;
     height: 500px;
-    border: 2px solid blue;
     border-radius: 300px 300px 0px 0px;
     background-color: rgba(5, 151, 160, 0.15);
     padding-top: 70px;
@@ -121,7 +129,6 @@ body{
 .third-image{
     width: 33%;
     height: 500px;
-    border: 2px solid purple;
     border-radius: 300px 300px 0px 0px;
     background-color: rgba(71, 125, 17, 0.15);
     padding-top: 25px;
