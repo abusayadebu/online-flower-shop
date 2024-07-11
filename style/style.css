@@ -257,7 +257,6 @@ font-weight: 400;
     width: 90%;
     height: 449px;
     margin: 0 auto;
-    border: 1px solid red;
     margin-top: 128px;
     background-image: url("../Flower-Asset/Rectangle-9.png");
     background-position: center;
@@ -301,4 +300,43 @@ font-weight: 400;
     border-radius: 8px;
     background: rgb(255, 255, 255);
     padding: 18px 35px 18px 35px;
+}
+
+/* footer section style starts here */
+.footer-container{
+    height: 450px;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: #111010;
+    margin-top: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-contents{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.footer-contents h2{
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.footer-contents p{
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFFE6;
+}
+
+#copyright{
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 50px;
 }
